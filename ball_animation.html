@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style type="text/css">
+		
+		body{
+
+			background: linear-gradient(45deg,white 40%,gray);
+			height: 100vh;
+		}
+		.box{
+
+			height: 1000px;
+			width: 1000px;
+			border: 5px solid red;
+			margin: 100px auto;
+			position: relative;
+			background: linear-gradient(black,black);
+			overflow: hidden;
+		box-shadow: 50px blue;
+		border-radius: 10%;
+			
+		}
+		
+		.a{
+
+			
+			height: 60px;
+			width: 60px;
+			background: purple;
+			border-radius: 50%;
+	
+			animation: deep 10s  linear infinite ;
+
+			
+		}
+		@keyframes ball{
+
+			from{display: block;}
+			to{display: none;}
+
+		}
+		.a:hover {
+
+			
+			animation: ball .9s ;
+		}
+
+		@keyframes deep
+		{
+
+			from{transform: translate(600px,250px)}
+
+		}
+
+		.b{
+
+			
+			height: 60px;
+			width: 60px;
+			height: 60px;
+			width: 60px;
+			background: coral;
+			border-radius: 50%;
+			animation: rat 10s infinite ;
+			position: absolute;
+			top: 20%;
+
+			
+		}
+		.b :hover{
+
+			display: none;
+		}
+		@keyframes rat
+		{
+
+			from{transform: translate(500px,200px);}
+		}
+		.c{
+
+			
+			height: 60px;
+			width: 60px;
+			background: goldenrod;
+			border-radius: 50%;
+				animation: kp 10s infinite ;
+				position: absolute;
+			top: 40%;
+
+			
+		}
+		@keyframes kp
+		{
+
+			from{transform: translate(700px,100px);}
+
+		}
+		.d{
+
+			height: 60px;
+			width: 60px;
+			background: white;
+			border-radius: 50%;
+		
+			animation: d 10s infinite;
+			position: absolute;
+			top: 60%;
+			
+		}
+		.d:hover{
+
+			display: none;
+		}
+		@keyframes d
+		{
+
+			from{transform: translate(600px,-300px);}
+
+		}
+
+		.e{
+
+			height: 60px;
+			width: 60px;
+			background: blue;
+			border-radius: 50%;
+			position: absolute;
+			top: 80%;
+			animation: dp 10s infinite;
+			
+		}
+		@keyframes dp
+		{
+
+			from{transform: translate(600px,-200px);}
+
+		}
+		.a1{
+
+			
+			height: 60px;
+			width: 60px;
+			background: paleturquoise;
+			border-radius: 50%;
+		
+		
+			position: absolute;
+			left: 92%;
+			animation: a1 10s  linear infinite;
+
+			
+		}
+		@keyframes a1
+		{
+			0%{transform: translateY(100px);}
+			25%{transform: translateZ(200px);}
+			50%{transform: translateX(-350px)}
+			75%{transform: translateY(700px)}
+			100%{transform: translateY(300px)}
+
+		}
+		
+		.b2{
+
+
+			height: 60px;
+			width: 60px;
+			height: 60px;
+			width: 60px;
+			background: red;
+			border-radius: 50%;
+			animation: rat 10s infinite ;
+			position: absolute;
+			top: 20%;
+			left: 92%;
+			e;
+
+
+			
+		}
+		@keyframes b2
+		{
+			0%{transform: translateY(0px);}
+			25%{transform: translateZ(60px);}
+			50%{transform: translateX(-350px)}
+			75%{transform: translateY(30px)}
+			100%{transform: translateY(70px)}
+
+
+		}
+			.c3{
+
+			
+			height: 60px;
+			width: 60px;
+			height: 60px;
+			width: 60px;
+			background: darkgreen;
+			border-radius: 50%;
+			animation: rat 10s infinite ;
+			position: absolute;
+			top: 40%;
+		
+left: 92%;
+
+			
+		}
+		@keyframes c3
+		{
+			from{transform: translate(-700px,-100px);}
+
+		}
+		
+		.d4{
+
+			
+			height: 60px;
+			width: 60px;
+			height: 60px;
+			width: 60px;
+			background: deeppink;
+			border-radius: 50%;
+			animation: rat 10s infinite ;
+			position: absolute;
+			top: 60%;
+			left: 92%;
+			animation: d4 10s  linear infinite;
+
+			
+		}
+		@keyframes d4
+		{
+
+			from{transform: translate(-600px,-250px);}
+
+		}
+		
+		.e5{
+
+			
+			height: 60px;
+			width: 60px;
+			height: 60px;
+			width: 60px;
+			background: dimgray;
+			border-radius: 50%;
+			animation: rat 10s infinite ;
+			position: absolute;
+			top: 80%;
+			left: 92%;
+			animation: e5 11s  linear infinite;
+
+			
+		}
+		@keyframes e5
+		{
+			
+			from{transform: translate(-600px,-200px);}
+
+
+		}
+		
+		
+
+
+
+
+	</style>
+</head>
+<body>
+
+<div class="box">
+	
+<div class="a"></div>
+<div class="b"></div>
+<div class="c"></div>
+<div class="d"></div>
+<div class="e"></div>
+<div class="f"></div>
+
+<div class="a1"></div>
+<div class="b2"></div>
+<div class="c3"></div>
+<div class="d4"></div>
+<div class="e5"></div>
+<div class="f6"></div>
+
+
+
+
+
+
+</div>
+
+</body>
+</html>
